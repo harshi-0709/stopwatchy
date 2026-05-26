@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>app name</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="app">
+        <div class="main">
+            <div class = "cont">
+            <div class="headoverlay">
+                <p class="head">STOPWATCHY3</p>
+            </div>
+            <div class="up-down" >
+                <button onclick="up();">▲</button>
+            </div>
+            <div class="timer"><span id="display">1</span></div>
+            <div class="up-down" >
+                <button onclick="down();">▼</button>
+                           </div>
+            <button class="start" onclick="start();">Start</button>
+        </div>
+        </div>
+        <div class="ongoing">
+        <div class="cont2">
+        <div class="gif">
+          <img src="coffee.gif" alt="coffee">
+        </div>
+        <div class="timer1"><span id="countdown">25:00</span></div>
+        <div class="btn-row">
+          <button class="stop"  onclick="stop()">stop</button>
+          <button class="pause"  onclick="pause()">pause</button>
+        </div>
+        </div>
+
+        
+    </div>
+    <div class="done">
+      <div class = "cont3">
+        <div class="timesup">
+        <p>Time's up!!</p>
+      </div>
+      <div class="donegif">
+        <img src="done.gif">
+      </div>
+      </div>
+    </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
