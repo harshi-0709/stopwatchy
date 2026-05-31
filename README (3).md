@@ -1,8 +1,7 @@
-# STOPWATCHY3 ☕
+# STOPWATCHY3 
 
 A cozy pixel art timer app built with Electron, HTML, CSS and JavaScript. Set a timer, watch your pixel art coffee brew, and get notified when time is up.
 
----
 
 ## Features
 
@@ -17,7 +16,6 @@ A cozy pixel art timer app built with Electron, HTML, CSS and JavaScript. Set a 
 - Pixelify Sans pixel font throughout
 - Fully offline — no internet needed
 
----
 
 ## Built With
 
@@ -26,7 +24,6 @@ A cozy pixel art timer app built with Electron, HTML, CSS and JavaScript. Set a 
 - Pixelify Sans — pixel font (local file, no internet needed)
 - Piskel — pixel art tool used to draw and animate the GIFs
 
----
 
 ## Project Structure
 
@@ -44,7 +41,6 @@ stopwatch-app/
 └── package-lock.json
 ```
 
----
 
 ## Getting Started
 
@@ -71,7 +67,6 @@ npm install
 npm start
 ```
 
----
 
 ## How to Use
 
@@ -83,7 +78,6 @@ npm start
 6. When the timer ends the alarm plays and the done screen appears
 7. The app automatically returns to setup after 10 seconds
 
----
 
 ## Screens
 
@@ -93,7 +87,6 @@ The app has three screens that swap visibility using JavaScript:
 - Timer screen — coffee GIF, countdown, pause and stop buttons
 - Done screen — time's up animation and alarm, auto returns after 10 seconds
 
----
 
 ## Window
 
@@ -101,18 +94,9 @@ The app has three screens that swap visibility using JavaScript:
 - Frameless window, drag anywhere on the app to move it
 - Non-resizable
 
----
 
 ## Pixel Art
 
 All pixel art in this app was hand drawn by the developer using Piskel and exported as animated GIFs. The coffee cup features a two-frame steam animation.
 
----
-
-## License
-
-MIT — feel free to use and modify!
-
----
-
-> Made with coffee and pixels
+ Made with coffee and pixels <3
