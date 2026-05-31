@@ -1,7 +1,7 @@
-STOPWATCHY3 
+#STOPWATCHY3 
 A cozy pixel art timer app built with Electron, HTML, CSS and JavaScript. Set a timer, watch your pixel art coffee brew, and get notified when time is up.
 
-Features
+#Features
 
 Set a custom timer in minutes using up and down arrows
 Animated pixel art coffee GIF plays while the timer runs
